@@ -11,3 +11,53 @@ body {
 .custom-menu-button {
     background-color: white;
 }
+
+.nav-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: #77ad78;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+    text-decoration-color: #77ad78;
+}
+
+.banner {
+    background: linear-gradient(97.54deg, #034b2290 35.49%, #4b865990 165.37%);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    text-align: center;
+}
+
+.carousel-container {
+    box-sizing: border-box;
+    max-width: 700px;
+    min-width: 700px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.carousel-item img {
+    width: calc(100% - 30px); 
+    height: auto; 
+}
+
+.container-carousel-txt {
+    display: flex;
+}

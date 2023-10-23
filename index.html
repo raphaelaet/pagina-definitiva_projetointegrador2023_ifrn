@@ -3,50 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página teste</title>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
 </head>
-<body background="./imagens/fundositeteste.png">
-    <nav class="menu_horizontal">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="leucocitos.html" target="_blank">Leucócitos</a></li>
-            <li><a href="#">Endocitose</a></li>
-            <li><a href="#">Diapedese</a></li>
-            <li><a href="#">Quem somos</a></li>
-        </ul>
-    </nav>
-    <br>
-    <div class="caixa_texto">
-        <p class="txt">Os leucócitos (ou glóbulos brancos) têm como principal função proteger
-            nosso organismo contra patógenos e organismos estranhos. Para isso, é necessário
-            que os leucócitos produzam substâncias que irão agir destruindo ou inativando as
-            partículas, ou ainda utilizando a fagocitose. Esse processo é um tipo de endocitose
-            e baseia-se em englobar patógenos, como bactérias, e eliminar esses invasores. E
-            para que os leucócitos migrem dos vasos sanguíneos para os tecidos afetados
-            ocorre o processo de diapedese, onde depois de ativados por sinais químicos, os
-            leucócitos então se movem ao longo da superfície das células endoteliais em
-            direção à área afetada. Esse processo é fundamental para a resposta imunológica
-            do corpo.
-        </p>
-    </div>
-    <br>
-    <div class="imagens_carrossel">
-        <img src="imagens/leucocitos.jpg">
-        <img src="imagens/endocitose.png">
-        <img src="imagens/diapedese.png">
-    </div>
-    <br>
-    <div class="videos">
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/7dNgFSHbm-Y" title="Como ocorre a Fagocitose???" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/phkSRD1ewqE" title="O Sistema Imune: Neutrófilos Caçando uma Bactéria (Quimiotaxia e Fagocitose)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    <br>
-    <footer>INFO3A - Projeto Integrador 2023 - Página teste<br>
-        Orientado pelo professor Alvaro Hermano da Silva e desenvolvido por: Lavínia Costa, Eloyza Mendonça, Raphael Laet e Sibele Steffany.
-    </footer>
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white active" href="index.html" aria-current="page">Home</a>
+          <button class="navbar-toggler custom-menu-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="leucocitos.html">Leucócitos</a>
+              <a class="nav-link" href="#">Endocitose</a>
+              <a class="nav-link" href="#">Diapedese</a>
+              <a class="nav-link" href="#">Quem somos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="banner">
+        <h2 class="banner__titulo">Relação de leucócitos, endocitose e diapedese</h2>
+        <p class="banner__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis mauris nibh. 
+          Aliquam rutrum pharetra lorem. Quisque scelerisque, dolor id suscipit interdum, tellus tortor auctor justo, 
+          in fermentum purus enim et tortor. Donec tincidunt elementum magna in sodales. Nulla non dolor sapien. Lorem 
+          ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin nibh nec erat posuere, ac consectetur 
+          felis convallis. Sed id feugiat sapien. Integer faucibus enim sit amet mi lacinia efficitur. Morbi tempus augue 
+          ac magna bibendum, nec iaculis neque fermentum. Suspendisse quis est et nulla viverra ornare.</p>        
+      </section>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
 </html>

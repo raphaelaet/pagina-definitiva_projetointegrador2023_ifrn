@@ -1,77 +1,46 @@
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Onest', sans-serif;
-}
-
 body {
+    background: url(/imagens/fundositeteste.png) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.menu_horizontal ul{
-    list-style: none;
-    padding: 0;
+.custom-navbar {
     background-color: #504b43;
 }
 
-.menu_horizontal ul li {
-    display: inline;
+.custom-menu-button {
+    background-color: white;
 }
 
-.menu_horizontal ul li a {
-    padding: 15px;
+.nav-link {
     display: inline-block;
     color: white;
     text-decoration: none;
     transition: background .5s;
 }
 
-.menu_horizontal ul li a:hover {
+.nav-link:hover {
     color: black;
     background-color: #77ad78;
 }
 
-.caixa_texto {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 15px;
-    max-width: 75%;
-    width: fit-content;
-    border: 2px solid #504b43;
-    padding: 10px;
+.navbar-brand:hover {
+    text-decoration: underline;
+    text-decoration-color: #77ad78;
 }
 
-.txt {
-   text-align: justify;
-   font-size: 100%;
-}
-
-.imagens_carrossel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-}
-
-.imagens_carrossel img {
-    width: 25%;
-}
-
-.videos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-}
-
-footer {
-    background-color: #8fd694;
-    color: black;
+.banner {
+    background: linear-gradient(97.54deg, #034b2290 35.49%, #4b865990 165.37%);
+    color: white;
     text-align: center;
-    padding: 10px 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    text-align: center;
 }
